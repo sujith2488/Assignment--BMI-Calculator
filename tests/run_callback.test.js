@@ -1,6 +1,6 @@
 const RunCallback = require("../assignments/run_callback/run_callback");
 
-describe('run_callback', () => {
+describe.only('run_callback', () => {
     test('Multiply', () => {
         expect(RunCallback(2, 3, function(a) { return 2 * a })).toEqual(10);
     });
