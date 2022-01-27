@@ -1,6 +1,6 @@
 const { getEven, multiplyByN, removeNthElement } = require("../assignments/play_with_array/play_with_array");
 
-describe('play_with_array', () => {
+describe.only('play_with_array', () => {
     test('Get Even', () => {
         expect(getEven([2,4,6,7,8])).toEqual([2,4,6,8]);
         expect(getEven([1,14,3,7,8])).toEqual([14,8]);
