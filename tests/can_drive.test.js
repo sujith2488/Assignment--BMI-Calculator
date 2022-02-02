@@ -1,6 +1,6 @@
 const CanDrive = require("../assignments/can_drive/can_drive");
 
-describe('can_drive', () => {
+describe.only('can_drive', () => {
     test('No Liscence, Tired, Sober', () => {
         expect(CanDrive(false, true, true)).toEqual("You cannot drive");
     });

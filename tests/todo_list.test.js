@@ -1,4 +1,4 @@
-describe('todo_list', () => {
+describe.only('todo_list', () => {
     test('Check addTodo able add todo to todoList', () => {
         document.body.innerHTML = `
             <div>
